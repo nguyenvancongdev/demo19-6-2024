@@ -7,14 +7,12 @@
           <v-card-text>
             <v-form>
               <v-text-field
-                v-model="email"
                 label="Email"
                 prepend-icon="mdi-email"
                 type="email"
                 required
               ></v-text-field>
               <v-text-field
-                v-model="password"
                 label="Password"
                 prepend-icon="mdi-lock"
                 type="password"
@@ -23,7 +21,7 @@
             </v-form>
           </v-card-text>
           <v-card-actions>
-            <v-btn color="primary" @click="login">Login</v-btn>
+            <v-btn color="primary" >Login</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
