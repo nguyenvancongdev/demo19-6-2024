@@ -1,4 +1,4 @@
-git checkout -b main
+git checkout main
 cd dist
 echo demo19-6-2024.cocode.pro > CNAME
 git init
